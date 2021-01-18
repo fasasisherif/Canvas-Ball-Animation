@@ -83,7 +83,7 @@ function Circle(x, y, dx, dy, radius, time) {
         c.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false)
         c.fillStyle = this.bgColour
         c.fill()
-        c.strokeStyle = 'black'
+        c.strokeStyle = 'transparent'
         c.stroke()
         
     }
